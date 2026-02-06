@@ -101,14 +101,14 @@
     "face": {
       "front": {
         "name": ".18 Derringer",
-        "type": "Hand slot",
+        "type": "Hand",
         "cost": "3",
         "image": "https://assets.arkham.build/optimized/60505.avif",
         "isHorizontal": false
       }
     },
     "name": ".18 Derringer",
-    "type": "Hand slot",
+    "type": "Hand",
     "cost": 0
   },
   "06324": {
