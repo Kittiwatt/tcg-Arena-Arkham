@@ -10,7 +10,7 @@
   "customHelp": "Hello world",
   "cardRotation": 90,
   "cards": {
-    "dataUrl": "https://github.com/Kittiwatt/tcg-Arena-Arkham/blob/529a03ef7fdf37755b04e14ca28fb3e2648e5c4b/ArkhamCards.json",
+    "dataUrl": "https://raw.githubusercontent.com/Kittiwatt/tcg-Arena-Arkham/refs/heads/main/ArkhamCards.json",
     "cardBack": "https://cdn.discordapp.com/attachments/1395531096686330049/1468561189352116234/FondOK_Arkham-poker-Back.png?ex=6985c930&is=698477b0&hm=c719a9ad80a21d8c10e21f2e1c626423fb2ec7d3204cfaa68f2e3f62288a6e38&"
   },
   "deckBuilding": {
