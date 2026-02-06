@@ -194,22 +194,22 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Chain Tracker"
+          "Permanent"
         ],
         "autoPlayFromHand": {
           "Creature": "Battleline",
-          "Action": "Stack",
-          "Upgrade": "Stack",
           "Artifact": "Artifacts",
           "Token Creature": "Battleline",
           "The Tide": "Stack",
           "Location": "Artifacts",
-          "Seal": "Stack"
+          "Seal": "Stack",
+          "Event": "Stack",
+          "Permanent": "Stack"
         },
         "autoPlayFromStack": {
-          "Action": "Discard",
           "Token Creature": "Battleline",
-          "Chain Tracker": "Chain Tracker"
+          "Chain Tracker": "Chain Tracker",
+          "Event": "Discard"
         },
         "sectionsDict": {
           "Hand": {
