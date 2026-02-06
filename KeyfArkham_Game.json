@@ -1,191 +1,123 @@
 {
-  "name": "Keyforge",
-  "menuBackgroundImage": "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
+  "name": "Arkham_Horror",
+  "menuBackgroundImage": "",
   "defaultRessources": {
-    "backgrounds": [
-      "https://cdn.discordapp.com/attachments/1395531096686330049/1468618713820303534/Playmat.png?ex=6986a782&is=69855602&hm=19c298f2f9235871d94a504a58bdc51cfc8e84afbc498ef153f9b98cb1077a48&"
-    ],
-    "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList_en.json"
+    "backgrounds": [],
+    "decksUrl": ""
   },
-  "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel. Decklist tool: https://raykwas.pyscriptapps.com/keyforge-deck-list-generator/latest/",
-  "cardRotation": 90,
+  "customHelp": "",
+  "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Kittiwatt/tcg-Arena-Arkham/refs/heads/arkham/KeyfArkham_card_list.json",
-    "cardBack": "https://raw.githubusercontent.com/Kittiwatt/tcg-Arena-Arkham/refs/heads/arkham/FondOK_Arkham-poker-Back.png"
+    "cardBack": "https://cdn.discordapp.com/attachments/1395531096686330049/1468561189352116234/FondOK_Arkham-poker-Back.png?ex=69871ab0&is=6985c930&hm=45e700a098b278ed431f9ef57f77fa23e6a94a8ad82bdee57b493f9b9f87b1fb&"
   },
   "deckBuilding": {
-    "mainFilters": [
-      "house",
-      "type",
-      "rarity",
-      "expansion"
-    ],
-    "formats": [
-      {
-        "title": "Standard",
-        "gameplay": "Standard",
-        "customCategories": [
-          "house 1",
-          "house 2",
-          "house 3"
-        ]
-      }
-    ]
+    "mainFilters": [],
+    "formats": []
   },
   "gameplay": {
-    "Standard": {
+    "Classic": {
       "mulligan": {
-        "info": "-1 per mulligan",
-        "startingHandSize": "6",
-        "drawNewHand": true,
+        "info": "",
+        "startingHandSize": "5",
+        "drawNewHand": false,
         "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "drawNewSelectedCards": true
       },
       "newTurn": {
-        "drawOnStart": true,
+        "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": "0"
+        "drawPerTurn": 1
       },
-      "defaultNotes": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel",
-      "tokens": [
-        {
-          "name": "Red Key",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyR.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Blue Key",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyB.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Yellow Key",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/keyY.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "High Tide",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/hightide.png",
-          "isUnique": true,
-          "leavesAtEndOfTurn": false
-        }
-      ],
-      "draggableTokens": [
-        {
-          "id": "stun",
-          "name": "Stun",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/stun.png"
-        },
-        {
-          "id": "enrage",
-          "name": "Enrage",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/enrage.png"
-        },
-        {
-          "id": "generic",
-          "name": "Generic",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
-        },
-        {
-          "id": "ward",
-          "name": "Ward",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/ward.png"
-        },
-        {
-          "id": "dmg1",
-          "name": "1 Damage",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg1.png"
-        },
-        {
-          "id": "dmg2",
-          "name": "2 Damage",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg2.png"
-        },
-        {
-          "id": "dmg3",
-          "name": "3 Damage",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg3.png"
-        },
-        {
-          "id": "dmg5",
-          "name": "5 Damage",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg5.png"
-        },
-        {
-          "id": "aember1",
-          "name": "1 Aember",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
-        },
-        {
-          "id": "aember2",
-          "name": "2 Aember",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember2.png"
-        },
-        {
-          "id": "aember3",
-          "name": "3 Aember",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember3.png"
-        },
-        {
-          "id": "aember5",
-          "name": "5 Aember",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember5.png"
-        },
-        {
-          "id": "aember10",
-          "name": "10 Aember",
-          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember10.png"
-        }
-      ],
+      "defaultNotes": "",
+      "tokens": [],
       "countersStartingValues": [
-        0,
         0
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Battleline",
-          "Archive",
-          "Artifacts",
-          "Chain Tracker"
+          "Accessory",
+          "Arcane",
+          "Permanent",
+          "Asset",
+          "Hand",
+          "Ally",
+          "Body",
+          "Investigator",
+          "Ressource"
         ],
         "layout": {
-          "direction": "column",
+          "direction": "row",
           "isSymetricalForOpponents": false,
           "content": [
             {
-              "direction": "row",
+              "direction": "column",
               "style": false,
               "content": [
                 {
-                  "section": "Battleline",
+                  "section": "Accessory",
+                  "style": false
+                },
+                {
+                  "section": "Ressource",
                   "style": false
                 }
               ],
               "isSymetricalForOpponents": false
             },
             {
-              "direction": "row",
+              "direction": "column",
               "style": false,
               "content": [
                 {
-                  "section": "Archive",
-                  "style": {
-                    "width": "20vh"
-                  }
+                  "section": "Ally",
+                  "style": false
                 },
                 {
-                  "section": "Chain Tracker",
-                  "style": {
-                    "width": "20vh"
-                  }
+                  "section": "Hand",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Investigator",
+                  "style": false
                 },
                 {
-                  "section": "Artifacts",
+                  "section": "Permanent",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Body",
+                  "style": false
+                },
+                {
+                  "section": "Arcane",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Asset",
                   "style": false
                 }
               ],
@@ -194,201 +126,253 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Permanent"
+          "Investigator",
+          "Permanent",
+          "Ressource"
         ],
         "autoPlayFromHand": {
-          "Creature": "Battleline",
-          "Artifact": "Artifacts",
-          "Token Creature": "Battleline",
-          "The Tide": "Stack",
-          "Location": "Artifacts",
-          "Seal": "Stack",
+          "Accessory": "Accessory",
+          "Ally": "Ally",
+          "Arcane": "Arcane",
+          "Permanent": "Permanent",
+          "Head": "Asset",
+          "Tarot": "Tarot",
           "Event": "Stack",
-          "Permanent": "Stack"
+          "Skill": "Stack",
+          "Body": "Body",
+          "Ressource": "Ressource",
+          "Hand": "Hand",
+          "Investigator": "Investigator"
         },
         "autoPlayFromStack": {
-          "Token Creature": "Battleline",
-          "Chain Tracker": "Chain Tracker",
-          "Event": "Discard"
+          "Event": "Discard",
+          "Skill": "Discard",
+          "Accessory": "Discard",
+          "Ally": "Discard",
+          "Arcane": "Discard",
+          "Head": "Discard",
+          "Tarot": "Discard",
+          "Body": "Discard",
+          "Hand": "Discard"
         },
         "sectionsDict": {
-          "Hand": {
-            "isDefaultSection": true,
-            "title": "Hand",
-            "isHidden": "opponent-only",
-            "height": "DEFAULT",
-            "alignment": "CENTER",
-            "autoPayFrom": true,
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Ressources",
             "enterTapped": false,
             "enterSpun": false,
+            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           },
           "Discard": {
-            "isDefaultSection": true,
             "title": "Discard",
             "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
+            "height": "SMALL",
+            "alignment": "START",
             "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "Deck": {
-            "isDefaultSection": true,
             "title": "Deck",
             "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
+            "height": "SMALL",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "Stack": {
-            "isDefaultSection": true,
             "title": "Stack",
             "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "displayedTitle": "Pile",
+            "height": "SMALL",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Commit",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
+            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
           "Exile": {
-            "isDefaultSection": true,
             "title": "Exile",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
             "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "ExileHidden": {
-            "isDefaultSection": true,
-            "title": "ExileHidden",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
             "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "opponentAlignment": false,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Sideboard": {
-            "isDefaultSection": true,
-            "title": "Sideboard",
+          "Accessory": {
+            "title": "Accessory",
             "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
             "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
+            "displayedTitle": "Accessory",
             "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Battleline": {
-            "title": "Battleline",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Battleline",
-            "noQuickActions": false,
-            "enterTapped": true,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-          "Archive": {
-            "title": "Archive",
-            "isHidden": "opponent-only",
-            "height": "MEDIUM",
-            "alignment": "DECK",
-            "noQuickActions": false,
-            "displayedTitle": "Archive",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Artifacts": {
-            "title": "Artifacts",
+          "Arcane": {
+            "title": "Arcane",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Artifacts",
+            "displayedTitle": "Arcane",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
+            "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Chain Tracker": {
-            "title": "Chain Tracker",
+          "Permanent": {
+            "title": "Permanent",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Chain Tracker",
+            "displayedTitle": "Permanent",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Asset": {
+            "title": "Asset",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Asset",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Hand",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Ally": {
+            "title": "Ally",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Ally",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Body": {
+            "title": "Body",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Body",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Investigator": {
+            "title": "Investigator",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Investigator",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Ressource": {
+            "title": "Ressource",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Ressource",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
