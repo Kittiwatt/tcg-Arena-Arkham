@@ -12,7 +12,7 @@
       }
     },
     "name": "Ancestral Token",
-    "type": false,
+    "type": "Accessory",
     "cost": 0
   },
   "10036": {
@@ -28,7 +28,7 @@
       }
     },
     "name": "Blade of Yoth",
-    "type": false,
+    "type": "Arcane",
     "cost": 0
   },
   "10079": {
@@ -44,7 +44,7 @@
       }
     },
     "name": "Bewitching",
-    "type": false,
+    "type": "Permanent",
     "cost": 0
   },
   "10086": {
@@ -60,7 +60,7 @@
       }
     },
     "name": "Abyssal Rot",
-    "type": false,
+    "type": "Event",
     "cost": 0
   },
   "12039": {
@@ -76,7 +76,7 @@
       }
     },
     "name": "Deduction",
-    "type": false,
+    "type": "Skill",
     "cost": 0
   },
   "12087": {
@@ -92,7 +92,7 @@
       }
     },
     "name": "Fedora",
-    "type": false,
+    "type": "Head",
     "cost": 0
   },
   "60505": {
@@ -108,7 +108,7 @@
       }
     },
     "name": ".18 Derringer",
-    "type": false,
+    "type": "Hand",
     "cost": 0
   },
   "06324": {
@@ -124,7 +124,7 @@
       }
     },
     "name": "Abigail Foreman",
-    "type": false,
+    "type": "Ally",
     "cost": 0
   },
   "03305": {
@@ -140,7 +140,7 @@
       }
     },
     "name": "Armor of Ardennes",
-    "type": false,
+    "type": "Body",
     "cost": 0
   },
   "05040": {
@@ -156,7 +156,7 @@
       }
     },
     "name": "Ace of Rods",
-    "type": false,
+    "type": "Tarot",
     "cost": 0
   },
   "0000R": {
@@ -172,7 +172,7 @@
       }
     },
     "name": "Ressource",
-    "type": false,
+    "type": "Ressource",
     "cost": 0
   },
   "01002": {
@@ -188,7 +188,7 @@
       }
     },
     "name": "Daisy Walker",
-    "type": false,
+    "type": "Investigator",
     "cost": 0
   }
 }
