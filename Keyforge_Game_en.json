@@ -3,17 +3,7 @@
   "menuBackgroundImage": "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
   "defaultRessources": {
     "backgrounds": [
-      "https://keyforging.com/wp-content/uploads/2022/10/Worlds-Collide-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/10/Starter-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/10/MM-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/10/AoA-Set-Banner.png",
-      "https://keyforging.com/wp-content/uploads/2022/08/Screen-Shot-2022-08-28-at-2.05.43-PM-scaled-e1663788870586.jpg",
-      "https://keyforging.com/wp-content/uploads/2023/05/ssss-scaled.jpg",
-      "https://keyforging.com/wp-content/uploads/2024/05/Screenshot-2024-05-09-at-10.24.46%E2%80%AFAM.png",
-      "https://keyforging.com/wp-content/uploads/2025/07/PV-Header-scaled.png",
-      "https://keyforging.com/wp-content/uploads/2024/05/Screenshot-2024-11-09-at-8.16.21%E2%80%AFPM.png",
-      "https://keyforging.com/wp-content/uploads/2024/05/skypirates.png"
-
+      "https://cdn.discordapp.com/attachments/1395531096686330049/1468618713820303534/Playmat.png?ex=6986a782&is=69855602&hm=19c298f2f9235871d94a504a58bdc51cfc8e84afbc498ef153f9b98cb1077a48&"
     ],
     "decksUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/DeckList_en.json"
   },
@@ -83,72 +73,73 @@
           "isUnique": true,
           "leavesAtEndOfTurn": false
         }
-      ], "draggableTokens": [
-              {
-                  "id": "stun",
-                  "name": "Stun",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/stun.png"
-              },
-              {
-                  "id": "enrage",
-                  "name": "Enrage",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/enrage.png"
-              },
-              {
-                  "id": "generic",
-                  "name": "Generic",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
-              },
-              {
-                  "id": "ward",
-                  "name": "Ward",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/ward.png"
-              },
-              {
-                  "id": "dmg1",
-                  "name": "1 Damage",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg1.png"
-              },
-              {
-                  "id": "dmg2",
-                  "name": "2 Damage",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg2.png"
-              },
-              {
-                  "id": "dmg3",
-                  "name": "3 Damage",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg3.png"
-              },
-              {
-                  "id": "dmg5",
-                  "name": "5 Damage",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg5.png"
-              },
-              {
-                  "id": "aember1",
-                  "name": "1 Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
-              },
-              {
-                  "id": "aember2",
-                  "name": "2 Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember2.png"
-              },
-              {
-                  "id": "aember3",
-                  "name": "3 Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember3.png"
-              },
-              {
-                  "id": "aember5",
-                  "name": "5 Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember5.png"
-              },
-              {
-                  "id": "aember10",
-                  "name": "10 Aember",
-                  "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember10.png"
-              }
+      ],
+      "draggableTokens": [
+        {
+          "id": "stun",
+          "name": "Stun",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/stun.png"
+        },
+        {
+          "id": "enrage",
+          "name": "Enrage",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/enrage.png"
+        },
+        {
+          "id": "generic",
+          "name": "Generic",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/generic.png"
+        },
+        {
+          "id": "ward",
+          "name": "Ward",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/ward.png"
+        },
+        {
+          "id": "dmg1",
+          "name": "1 Damage",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg1.png"
+        },
+        {
+          "id": "dmg2",
+          "name": "2 Damage",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg2.png"
+        },
+        {
+          "id": "dmg3",
+          "name": "3 Damage",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg3.png"
+        },
+        {
+          "id": "dmg5",
+          "name": "5 Damage",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/dmg5.png"
+        },
+        {
+          "id": "aember1",
+          "name": "1 Aember",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember.png"
+        },
+        {
+          "id": "aember2",
+          "name": "2 Aember",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember2.png"
+        },
+        {
+          "id": "aember3",
+          "name": "3 Aember",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember3.png"
+        },
+        {
+          "id": "aember5",
+          "name": "5 Aember",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember5.png"
+        },
+        {
+          "id": "aember10",
+          "name": "10 Aember",
+          "image": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/aember10.png"
+        }
       ],
       "countersStartingValues": [
         0,
@@ -363,7 +354,15 @@
             "height": "MEDIUM",
             "alignment": "DECK",
             "noQuickActions": false,
-            "displayedTitle": "Archive"
+            "displayedTitle": "Archive",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Artifacts": {
             "title": "Artifacts",
