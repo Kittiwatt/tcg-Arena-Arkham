@@ -28,7 +28,7 @@
       }
     },
     "name": "Library Docent",
-    "type": false,
+    "type": "Allie",
     "cost": 0
   },
   "05276": {
@@ -44,7 +44,7 @@
       }
     },
     "name": "Studious",
-    "type": false,
+    "type": "Permanent",
     "cost": 0
   },
   "05235": {
