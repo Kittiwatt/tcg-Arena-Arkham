@@ -23,7 +23,10 @@
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"
   },
   "deckBuilding": {
-    "mainFilters": [],
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
     "formats": [
       {
         "title": "Standard",
