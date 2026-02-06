@@ -360,6 +360,22 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+            },
+          "Skill": {
+            "title": "Skill",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
