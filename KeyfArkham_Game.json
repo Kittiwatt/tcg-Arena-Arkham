@@ -51,7 +51,7 @@
           "Arcane",
           "Permanent",
           "Asset",
-          "Hand",
+          "Hand Slot",
           "Ally",
           "Body",
           "Investigator",
@@ -85,7 +85,7 @@
                   "style": false
                 },
                 {
-                  "section": "Hand",
+                  "section": "Hand Slot",
                   "style": false
                 }
               ],
@@ -150,8 +150,8 @@
           "Skill": "Stack",
           "Body": "Body",
           "Ressource": "Ressource",
-          "Hand": "Hand",
-          "Investigator": "Investigator"
+          "Investigator": "Investigator",
+          "Hand Slot": "Hand Slot"
         },
         "autoPlayFromStack": {
           "Event": "Discard",
@@ -162,7 +162,7 @@
           "Head": "Discard",
           "Tarot": "Discard",
           "Body": "Discard",
-          "Hand": "Discard"
+          "Hand Slot": "Discard"
         },
         "sectionsDict": {
           "Mana": {
@@ -309,22 +309,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Hand": {
-            "title": "Hand",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Hand",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "Ally": {
             "title": "Ally",
             "isHidden": "no",
@@ -389,15 +373,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Tarot": {
-            "title": "Tarot",
+          "Hand Slot": {
+            "title": "Hand Slot",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
+            "displayedTitle": "Hand Slot",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
