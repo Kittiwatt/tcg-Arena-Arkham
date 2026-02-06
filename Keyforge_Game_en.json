@@ -20,7 +20,7 @@
   "customHelp": "Use first counter for AEmber, second for forged keys. Chain tracker can be added on tokens panel. Decklist tool: https://raykwas.pyscriptapps.com/keyforge-deck-list-generator/latest/",
   "cardRotation": 90,
   "cards": {
-    "dataUrl": "https://raykwashington.github.io/TCG-Arena-Keyforge/scrpt/CardList_en.json",
+    "dataUrl": "https://raw.githubusercontent.com/Kittiwatt/tcg-Arena-Arkham/refs/heads/arkham/keyforge_card_list_en.json",
     "cardBack": "https://raykwashington.github.io/TCG-Arena-Keyforge/img/cardBackplaceholder.png"
   },
   "deckBuilding": {
