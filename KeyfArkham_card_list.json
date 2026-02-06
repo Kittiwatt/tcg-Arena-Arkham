@@ -1,33 +1,194 @@
 {
-  "05032": {
-    "id": "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff",
-    "face": {
-      "front": {
-        "name": " Deny Existence",
-        "type": "Event",
-        "cost": "0",
-        "image": "https://assets.arkham.build/optimized/05032.avif"
-      }
-    },
-    "name": " Deny Existence",
-    "type": "Event",
-    "cost": "0",
-    "isToken": false
-  },
-  "05276": {
-    "id": "",
+  "10019": {
+    "id": "10019",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Studious",
-        "type": "Permanent",
-        "cost": 0,
-        "image": "https://assets.arkham.build/optimized/05276.avif",
+        "name": "Ancestral Token",
+        "type": "Accessory",
+        "cost": "3",
+        "image": "https://assets.arkham.build/optimized/10019.avif",
         "isHorizontal": false
       }
     },
-    "name": "Studious",
-    "type": "Permanent",
+    "name": "Ancestral Token",
+    "type": false,
+    "cost": 0
+  },
+  "10036": {
+    "id": "10036",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Blade of Yoth",
+        "type": "Arcane",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/10036.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blade of Yoth",
+    "type": false,
+    "cost": 0
+  },
+  "10079": {
+    "id": "10079",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Bewitching",
+        "type": "Permanent",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/10079.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bewitching",
+    "type": false,
+    "cost": 0
+  },
+  "10086": {
+    "id": "10086",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Abyssal Rot",
+        "type": "Event",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/10086.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Abyssal Rot",
+    "type": false,
+    "cost": 0
+  },
+  "12039": {
+    "id": "12039",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Deduction",
+        "type": "Skill",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/12039.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Deduction",
+    "type": false,
+    "cost": 0
+  },
+  "12087": {
+    "id": "12087",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fedora",
+        "type": "Head",
+        "cost": "2",
+        "image": "https://assets.arkham.build/optimized/12087.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fedora",
+    "type": false,
+    "cost": 0
+  },
+  "60505": {
+    "id": "60505",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": ".18 Derringer",
+        "type": "Hand",
+        "cost": "3",
+        "image": "https://assets.arkham.build/optimized/60505.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": ".18 Derringer",
+    "type": false,
+    "cost": 0
+  },
+  "06324": {
+    "id": "06324",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Abigail Foreman",
+        "type": "Ally",
+        "cost": "3",
+        "image": "https://assets.arkham.build/optimized/06324.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Abigail Foreman",
+    "type": false,
+    "cost": 0
+  },
+  "03305": {
+    "id": "03305",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Armor of Ardennes",
+        "type": "Body",
+        "cost": "4",
+        "image": "https://assets.arkham.build/optimized/03305.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Armor of Ardennes",
+    "type": false,
+    "cost": 0
+  },
+  "05040": {
+    "id": "05040",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ace of Rods",
+        "type": "Tarot",
+        "cost": "3",
+        "image": "https://assets.arkham.build/optimized/05040.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ace of Rods",
+    "type": false,
+    "cost": 0
+  },
+  "0000R": {
+    "id": "0000R",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ressource",
+        "type": "Ressource",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Kittiwatt/tcg-Arena-Arkham/refs/heads/arkham/t%C3%A9l%C3%A9chargement%20d(ZZ).jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ressource",
+    "type": false,
+    "cost": 0
+  },
+  "01002": {
+    "id": "01002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Daisy Walker",
+        "type": "Investigator",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/01002.avif",
+        "isHorizontal": true
+      }
+    },
+    "name": "Daisy Walker",
+    "type": false,
     "cost": 0
   }
 }
