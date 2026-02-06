@@ -1,17 +1,33 @@
 {
-  "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff": {
+  "05032": {
     "id": "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff",
     "face": {
       "front": {
         "name": " Deny Existence",
-        "type": "Action",
+        "type": "Event",
         "cost": "0",
         "image": "https://assets.arkham.build/optimized/05032.avif"
       }
     },
     "name": " Deny Existence",
-    "type": "Action",
+    "type": "Event",
     "cost": "0",
     "isToken": false
+  },
+  "05276": {
+    "id": "",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Studious",
+        "type": "Permanent",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/05276.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Studious",
+    "type": "Permanent",
+    "cost": 0
   }
 }
