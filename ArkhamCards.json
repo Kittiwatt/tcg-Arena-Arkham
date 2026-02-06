@@ -1,0 +1,105 @@
+{
+  "10057": {
+    "id": "10057",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Confound",
+        "type": "Event",
+        "cost": "2",
+        "image": "https://assets.arkham.build/optimized/10057.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Confound",
+    "type": "Event",
+    "cost": 0
+  },
+  "60220": {
+    "id": "60220",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Library Docent",
+        "type": "Allie",
+        "cost": "1",
+        "image": "https://assets.arkham.build/optimized/60220.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Library Docent",
+    "type": false,
+    "cost": 0
+  },
+  "05276": {
+    "id": "05276",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Studious",
+        "type": "Permanent",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/05276.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Studious",
+    "type": false,
+    "cost": 0
+  },
+  "05235": {
+    "id": "05235",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "De Vermis Mysteriis",
+        "type": "Asset",
+        "cost": "2",
+        "image": "https://assets.arkham.build/optimized/05235.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "De Vermis Mysteriis",
+    "type": "Asset",
+    "cost": 0
+  },
+  "01002": {
+    "id": "01002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Daisy Walker (A)",
+        "type": "Investigator",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/01002.avif",
+        "isHorizontal": true
+      },
+      "back": {
+        "name": "Daisy Walker (B)",
+        "type": "Investigator",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/01002b.avif",
+        "isHorizontal": true
+      }
+    },
+    "name": "Daisy Walker",
+    "type": "Investigator",
+    "cost": 0
+  },
+  "02299": {
+    "id": "02299",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Vicious Blow",
+        "type": "Skill",
+        "cost": 0,
+        "image": "https://assets.arkham.build/optimized/02299.avif",
+        "isHorizontal": false
+      }
+    },
+    "name": "Vicious Blow",
+    "type": "Skill",
+    "cost": 0
+  }
+}
