@@ -1,20 +1,17 @@
 {
-    "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff": {
-        "id": "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff",
-        "face": {
-            "front": {
-                "name": "Tectonic Shift",
-                "type": "Action",
-                "cost": "0",
-                "image": "https://keyforge-card-images.s3-us-west-2.amazonaws.com/card-images-houses/saurian/tectonic-shift.png"
-            }
-        },
-        "name": "Tectonic Shift",
+  "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff": {
+    "id": "cc8a2cfe-f260-4df2-8df0-44f4f6fd19ff",
+    "face": {
+      "front": {
+        "name": " Deny Existence",
         "type": "Action",
-        "house": "Saurian",
         "cost": "0",
-        "expansion": "CRUCIBLE_CLASH",
-        "rarity": "Rare",
-        "isToken": false
-    } 
+        "image": "https://assets.arkham.build/optimized/05032.avif"
+      }
+    },
+    "name": " Deny Existence",
+    "type": "Action",
+    "cost": "0",
+    "isToken": false
+  }
 }
