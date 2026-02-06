@@ -430,15 +430,15 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Resources": {
-            "title": "Resources",
+          "Resource": {
+            "title": "Resource",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Ressources",
+            "displayedTitle": "Ressource",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
