@@ -12,8 +12,17 @@
     "cardBack": "https://cdn.discordapp.com/attachments/1395531096686330049/1468561189352116234/FondOK_Arkham-poker-Back.png?ex=69871ab0&is=6985c930&hm=45e700a098b278ed431f9ef57f77fa23e6a94a8ad82bdee57b493f9b9f87b1fb&"
   },
   "deckBuilding": {
-    "mainFilters": [],
-    "formats": []
+    "mainFilters": [
+      "Type",
+      "Cost"
+    ],
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {
     "Classic": {
